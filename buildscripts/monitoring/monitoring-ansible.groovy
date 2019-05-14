@@ -14,7 +14,7 @@ node {
     BUILD_REPO_URL = "${BUILD_REPO_URL}"
 
     // expor variable to path to Ansible dir in Infra repo
-    WORKDIR='monitoring/ansible/monitoring'
+    WORKDIR='ansible/monitoring/ansible/monitoring'
 
     // clone $BUILD_REPO_URL to dedicated directory ./buildscripts/
     dir('buildscripts') {
